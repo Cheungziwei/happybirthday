@@ -3,28 +3,52 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Interesting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>HappyBirthday</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
 	<link rel="stylesheet" href="stylesheets/style.css">
 </head>
 
 <body class="bg">
-	<div class="outer">
-	<div class="container">
+<div class="outer container">
+<div class="row">
+	<div class="inter col">
+	<h1>11.24</h1>
 	<h1>妈妈生日快乐</h1>
 	<fieldset>
-		<legend class="color">许愿池</legend>
+		<div class="color" id="wishtitle">许愿池</div>
 		<div>
 			<input id="new-dream" placeholder="请输入你的愿望">
-			<button id="add-dream" onclick="sendDream()" class="color">许愿</button>
-			<div id="dream-catch" class="color" hidden></div>
+			<button id="add-dream" onclick="sendDream()" class="color" data-toggle="modal" data-target="#Modal">许愿</button>
 		</div>
 	</fieldset>
-	
+	</div>
+
+
+	<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+		  <div class="modal-content" id="ModalTitle">
+			<div class="modal-header" >
+			  <h5 class="modal-title color" >许愿成功</h5>
+			  <div class="color" id="poptitle">许愿收录时间：</div>
+			</div>
+			<div class="modal-body color" id="dream-catch"></div>
+			<img src="./images/ma.jpg" id="popimage" alt="Norway">
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary color" data-dismiss="modal">Close</button>
+			  </div>
+		  </div>
+		</div>
+	  </div>
+</div>
+</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vue@3.2.45/dist/vue.global.js"></script>
 	<script  src="javascripts/index.js"></script>
-	</div>
-	</div>
 </body>
 
 </html>

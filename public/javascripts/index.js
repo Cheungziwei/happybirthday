@@ -11,10 +11,13 @@ async function sendDream(){
         throw(error)
     }
 	
+    var day = new Date();
+    day.toString();
+
 	document.getElementById("dream-catch").hidden = false;
-	document.getElementById("dream-catch").innerHTML = dreamInput.value+" 是嘛，收到你的愿望啦"
-	dreamInput.value = '';
-	dreamInput.innerText = '';
+	document.getElementById("dream-catch").innerHTML = dreamInput.value+" 是嘛，收到你的愿望啦";
+	document.getElementById("poptitle").innerHTML = "许愿收录时间： "+day;
+    dreamInput.value = '';
 }
 
 async function fetchJSON(route, options){
