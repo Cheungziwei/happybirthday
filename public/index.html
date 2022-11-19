@@ -13,15 +13,16 @@
 	<div class="container">
 	<h1>妈妈生日快乐</h1>
 	<fieldset>
-		<legend>许愿池</legend>
+		<legend class="color">许愿池</legend>
 		<div>
-			<input id="new-city" placeholder="输入你的愿望">
-			<button id="add-city">许愿</button>
+			<input id="new-dream" placeholder="请输入你的愿望">
+			<button id="add-dream" onclick="sendDream()" class="color">许愿</button>
+			<div id="dream-catch" class="color" hidden></div>
 		</div>
 	</fieldset>
 	
 	<script src="https://cdn.jsdelivr.net/npm/vue@3.2.45/dist/vue.global.js"></script>
-	<script src="javascripts/index.js"></script>
+	<script  src="javascripts/index.js"></script>
 	</div>
 	</div>
 </body>
