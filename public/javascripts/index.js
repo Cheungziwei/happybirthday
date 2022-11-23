@@ -1,7 +1,6 @@
 
 async function sendDream(){
     let dreamInput  = document.getElementById("new-dream");
-	console.log('value '+dreamInput.value)
 	try{
         await fetchJSON(`/users`, {
             method: "POST",

@@ -6,49 +6,146 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>HappyBirthday</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+	
 	<link rel="stylesheet" href="stylesheets/style.css">
 </head>
 
 <body class="bg">
-<div class="outer container">
-<div class="row">
-	<div class="inter col">
-	<h1>11.24</h1>
-	<h1>妈妈生日快乐</h1>
-	<fieldset>
-		<div class="color" id="wishtitle">许愿池</div>
-		<div>
-			<input id="new-dream" placeholder="请输入你的愿望">
-			<button id="add-dream" onclick="sendDream()" class="color" data-toggle="modal" data-target="#Modal">许愿</button>
+<div class="container outerpart">
+	<div class="row row-cols-1">
+		<div class="col-12 column1">
+			<ul class="cloud" >
+				<li><a data-weight="4" href>健康快乐</a></li>
+				<li><a data-weight="3" href>花开富贵</a></li>
+				<li><a data-weight="5" href>天随人愿</a></li>
+				<li><a data-weight="8" href>龙马精神</a></li>
+				<li><a data-weight="6" href>福寿安康</a></li>
+				<li><a data-weight="4" href>事事顺心</a></li>
+				<li><a data-weight="5" href>心想事成</a></li>
+				<li><a data-weight="6" href>万事如意</a></li>
+				<li><a data-weight="3" href>开开心心</a></li>
+				<li><a data-weight="9" href>马到成功</a></li>
+				<li><a data-weight="3" href>前程似锦</a></li>
+				<li><a data-weight="7" href>长命百岁</a></li>
+				<li><a data-weight="8" href>年年好运</a></li>
+				<li><a data-weight="3" href>鹏程万里</a></li>
+				<li><a data-weight="3" href>福如东海</a></li>
+				<li><a data-weight="4" href>笑口常开</a></li>
+				<li><a data-weight="8" href>事业有成</a></li>
+				<li><a data-weight="5" href>文定吉祥</a></li>
+				<li><a data-weight="8" href>寿比南山</a></li>
+				<li><a data-weight="6" href>青春常驻</a></li>
+				
+			  </ul>
 		</div>
-	</fieldset>
 	</div>
+<div class="row">
+	<div class="col column2">
+		<ul class="cloud" >
+			<li><a data-weight="4" href>福禄寿喜</a></li>
+			<li><a data-weight="2" href>人见人爱</a></li>
+			<li><a data-weight="5" href>吉祥如意</a></li>
+			<li><a data-weight="8" href>松鹤延年</a></li>
+			<li><a data-weight="6" href>六六大顺</a></li>
+			<li><a data-weight="4" href>蒸蒸日上</a></li>
+			<li><a data-weight="5" href>日新月异</a></li>
+			<li><a data-weight="6" href>财源滚滚</a></li>
+			<li><a data-weight="3" href>马到成功</a></li>
+			<li><a data-weight="9" href>吉祥如意</a></li>
 
-
-	<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered" role="document">
-		  <div class="modal-content" id="ModalTitle">
-			<div class="modal-header" >
-			  <h5 class="modal-title color" >许愿成功</h5>
-			  <div class="color" id="poptitle">许愿收录时间：</div>
+			<li><a data-weight="7" href>鹏程万里</a></li>
+			<li><a data-weight="8" href>长生不老</a></li>
+			<li><a data-weight="3" href>快乐相伴</a></li>
+		  </ul>
+	</div>
+	<div class="col interpart">
+		<h1 class="title">2022 11.24</h1>
+		<h1>妈妈 生日快乐</h1>
+		<br>
+		<fieldset>
+			<div class="color wishtitle" >许愿池</div>
+			<div>
+				<input id="new-dream" placeholder="请输入你的愿望">
+				<button id="add-dream" onclick="sendDream()" class="color" data-toggle="modal" data-target="#Modal">许愿</button>
 			</div>
-			<div class="modal-body color" id="dream-catch"></div>
-			<img src="./images/ma.jpg" id="popimage" alt="Norway">
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary color" data-dismiss="modal">Close</button>
-			  </div>
-		  </div>
+		</fieldset>
+	</div>
+	<div class="col column2">
+		<ul class="cloud" >
+			<li><a data-weight="4" href>三羊开泰</a></li>
+			<li><a data-weight="2" href>万事胜意</a></li>
+			<li><a data-weight="5" href>合家幸福</a></li>
+			<li><a data-weight="8" href>锦绣前程</a></li>
+			<li><a data-weight="6" href>如松如鹤</a></li>
+			<li><a data-weight="4" href>万寿无疆</a></li>
+			<li><a data-weight="5" href>松苍柏翠</a></li>
+			<li><a data-weight="5" href>永沐春风</a></li>
+			<li><a data-weight="3" href>多寿多福</a></li>
+			<li><a data-weight="9" href>七星高照</a></li>
+			<li><a data-weight="3" href>红红火火</a></li>
+			<li><a data-weight="6" href>阖府康乐</a></li>
+			<li><a data-weight="7" href>春风得意</a></li>
+			<li><a data-weight="3" href>如意吉祥</a></li>
+			<li><a data-weight="4" href>四季平安</a></li>
+		  </ul>
+	</div>
+</div>
+<div class="row row-cols-1">
+	<div class="col-12 column1">
+		<ul class="cloud" >
+			<li><a data-weight="4" href>二龙腾飞</a></li>
+			<li><a data-weight="3" href>恭喜发财</a></li>
+			<li><a data-weight="5" href>财源亨通</a></li>
+			<li><a data-weight="8" href>财通四海</a></li>
+			<li><a data-weight="6" href>开心久久</a></li>
+			<li><a data-weight="4" href>岁岁平安</a></li>
+			<li><a data-weight="5" href>五福临门</a></li>
+			<li><a data-weight="6" href>身体健康</a></li>
+			<li><a data-weight="3" href>百事可乐</a></li>
+			<li><a data-weight="9" href>大吉大利</a></li>
+			<li><a data-weight="3" href>八方来财</a></li>
+			<li><a data-weight="7" href>心想事成</a></li>
+			<li><a data-weight="8" href>一帆风顺</a></li>
+			<li><a data-weight="3" href>天护寿者</a></li>
+			<li><a data-weight="3" href>万事如意</a></li>
+			<li><a data-weight="4" href>身强力壮</a></li>
+			<li><a data-weight="3" href>必定如意</a></li>
+			<li><a data-weight="5" href>平步青云</a></li>
+			<li><a data-weight="4" href>似锦如织</a></li>
+				<li><a data-weight="5" href>花开如梦</a></li>
+				<li><a data-weight="6" href>时时开心</a></li>
+				<li><a data-weight="3" href>地佑善人</a></li>
+				<li><a data-weight="9" href>吉星高照</a></li>
+				<li><a data-weight="3" href>美好未來</a></li>
+				<li><a data-weight="7" href>吉祥如意</a></li>
+				<li><a data-weight="8" href>天天开心</a></li>
+				<li><a data-weight="3" href>好事连连</a></li>
+				<li><a data-weight="7" href>金玉满堂</a></li>
+		  </ul>
+	</div>
+</div>
+</div>
+		<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content" id="ModalTitle">
+				<div class="modal-header" >
+				<h5 class="modal-title color" >许愿成功</h5>
+				<div class="color" id="poptitle">许愿收录时间：</div>
+				</div>
+				<div class="modal-body color" id="dream-catch"></div>
+				<img src="./images/ma.jpg" id="popimage" alt="Norway">
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary color" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+			</div>
 		</div>
-	  </div>
-</div>
-</div>
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/vue@3.2.45/dist/vue.global.js"></script>
-	<script  src="javascripts/index.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue@3.2.45/dist/vue.global.js"></script>
+		<script src="javascripts/index.js"></script>
 </body>
 
 </html>
