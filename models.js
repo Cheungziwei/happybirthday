@@ -5,7 +5,7 @@ let models = {}
 main()
 async function main(){
     console.log('connecting to mongodb')
-    await mongoose.connect('mongodb+srv://info441:info441@cluster0.ammniri.mongodb.net/test')
+    await mongoose.connect('mongodb+srv://info441:info441@cluster0.ammniri.mongodb.net/dream')
 
     console.log("successfully connected to mongodb!")
 

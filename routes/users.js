@@ -2,7 +2,6 @@ import express from 'express';
 var router = express.Router();
 
 router.post('/', async (req, res) =>{
-  console.log('req body dream '+req.body.dream)
     try{
       const newDream = new req.models.Dream({
         dream: req.body.dream
